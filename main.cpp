@@ -13,6 +13,7 @@ int main()
     //ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
     ksiazkaAdresowa.logowanieUzytkownika();
     //ksiazkaAdresowa.pobierzId();
+    ksiazkaAdresowa.zmienHaslo();
 
     return 0;
 }

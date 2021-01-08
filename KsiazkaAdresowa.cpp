@@ -9,13 +9,16 @@ void KsiazkaAdresowa::wypiszWszystkichUzytkownikow() {
 }
 
 void KsiazkaAdresowa::logowanieUzytkownika() {
-    uzytkownikMenedzer.logowanieUzytkownika();
+    uzytkownikMenedzer.pobierzIdZalogowanegoUzytkownika();
 }
 /*
 void KsiazkaAdresowa::pobierzId() {
     uzytkownikMenedzer.pobierzIdZalogowanegoUzytkownika();
 }
 */
+void KsiazkaAdresowa::zmienHaslo() {
+    uzytkownikMenedzer.zmianaHaslaZalogowanegoUzytkownika();
+}
 
 
 
