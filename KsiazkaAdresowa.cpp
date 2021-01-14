@@ -15,11 +15,11 @@ void KsiazkaAdresowa::logowanieUzytkownika() {
 void KsiazkaAdresowa::pobierzId() {
     uzytkownikMenedzer.pobierzIdZalogowanegoUzytkownika();
 }
-*/
+
 void KsiazkaAdresowa::zmienHaslo() {
     uzytkownikMenedzer.zmianaHaslaZalogowanegoUzytkownika();
 }
-
+*/
 
 
 
