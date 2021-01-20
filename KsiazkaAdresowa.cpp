@@ -86,4 +86,13 @@ char KsiazkaAdresowa::wybierzOpcjeZMenuUzytkownika() {
     return wybor;
 }
 
+void KsiazkaAdresowa::usunAdresata() {
+    if (uzytkownikMenedzer.czyUzytkownikJestZalogowany()) {
+        adresatMenedzer->usunAdresata();
+    } else {
+        cout << "Aby usunac adresata nalezy najpierw sie zalogowac!" << endl;
+        system("pause");
+    }
+}
+
 
