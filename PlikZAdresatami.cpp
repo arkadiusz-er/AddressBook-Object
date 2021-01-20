@@ -190,7 +190,7 @@ void PlikZAdresatami::pobierzZPlikuIdOstatniegoAdresata() {
     return;
 }
 
-bool PlikZAdresatami::edytujAdresataWPliku(Adresat adresat, string liniaZDanymiAdresataOddzielonePionowymiKreskami) {
+void PlikZAdresatami::edytujAdresataWPliku(Adresat adresat, string liniaZDanymiAdresataOddzielonePionowymiKreskami) {
     fstream odczytywanyPlikTekstowy, tymczasowyPlikTekstowy;
     string wczytanaLinia = "";
     int numerWczytanejLinii = 1;
