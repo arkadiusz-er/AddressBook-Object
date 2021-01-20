@@ -27,7 +27,11 @@ public:
     void dodajAdresata();
     void wyswietlWszystkichAdresatow();
     void usunAdresata();
+    void edytujAdresata();
     int podajIdWybranegoAdresata();
+    char wybierzOpcjeZMenuEdycja();
+    void zaktualizujDaneWybranegoAdresata(Adresat adresat);
+    string zamienDaneAdresataNaLinieZDanymiOddzielonymiPionowymiKreskami(Adresat adresat);
 
 };
 

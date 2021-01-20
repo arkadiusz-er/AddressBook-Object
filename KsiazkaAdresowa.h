@@ -33,6 +33,7 @@ public:
     char wybierzOpcjeZMenuUzytkownika();
     bool czyUzytkownikJestZalogowany();
     void usunAdresata();
+    void edytujAdresata();
 };
 
 #endif
