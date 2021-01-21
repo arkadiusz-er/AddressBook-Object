@@ -86,4 +86,34 @@ char KsiazkaAdresowa::wybierzOpcjeZMenuUzytkownika() {
     return wybor;
 }
 
+void KsiazkaAdresowa::usunAdresata() {
+    if (uzytkownikMenedzer.czyUzytkownikJestZalogowany()) {
+        adresatMenedzer->usunAdresata();
+    } else {
+        cout << "Aby usunac adresata nalezy najpierw sie zalogowac!" << endl;
+        system("pause");
+    }
+}
+
+void KsiazkaAdresowa::edytujAdresata() {
+    if (uzytkownikMenedzer.czyUzytkownikJestZalogowany()) {
+        adresatMenedzer->edytujAdresata();
+    } else {
+        cout << "Aby usunac adresata nalezy najpierw sie zalogowac!" << endl;
+        system("pause");
+    }
+}
+
+void KsiazkaAdresowa::wyszukajAdresatowPoImieniu() {
+    if (uzytkownikMenedzer.czyUzytkownikJestZalogowany()) {
+        adresatMenedzer->wyszukajAdresatowPoImieniu();
+    }
+}
+
+void KsiazkaAdresowa::wyszukajAdresatowPoNazwisku() {
+    if (uzytkownikMenedzer.czyUzytkownikJestZalogowany()) {
+        adresatMenedzer->wyszukajAdresatowPoNazwisku();
+    }
+}
+
 

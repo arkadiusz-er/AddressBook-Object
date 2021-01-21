@@ -29,9 +29,13 @@ public:
     void wylogowanieUzytkownika();
     void dodajAdresata();
     void wyswietlWszystkichAdresatow();
+    void wyszukajAdresatowPoImieniu();
+    void wyszukajAdresatowPoNazwisku();
     char wybierzOpcjeZMenuGlownego();
     char wybierzOpcjeZMenuUzytkownika();
     bool czyUzytkownikJestZalogowany();
+    void usunAdresata();
+    void edytujAdresata();
 };
 
 #endif
